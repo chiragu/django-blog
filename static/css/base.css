@@ -32,6 +32,88 @@ body {
     margin-top: 8rem;
   }
 
+  .new-post {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .new-post:hover {
+    transition-duration: 0.4s;
+    background-color: #008CBA; /* blue */
+  }
+
+  .new-post a {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+  .edit-post {
+    
+    background-color: #008CBA; /* blue */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .edit-post:hover {
+    transition-duration: 0.4s;
+    background-color: #4CAF50; /* Green */
+  }
+
+  .edit-post a {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+
+  .delete-post {
+    
+    background-color: #008CBA; /* blue */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .delete-post:hover {
+    transition-duration: 0.4s;
+    background-color: #f44336; /* Red */
+  }
+
+  .delete-post a {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+
   .post-entry {
     margin-bottom: 2rem;
   }

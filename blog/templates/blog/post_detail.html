@@ -9,4 +9,13 @@
     <p>{{ post.body }}</p>
 
 </div>
+
+<div class="edit-post">
+    <a href="{% url 'post_edit' post.pk %}">+ Edit Blog Post</a>
+</div>
+
+<div class="delete-post">
+    <a href="{% url 'post_delete' post.pk %}">- Delete Blog Post</a>
+</div>
+
 {% endblock content%}
