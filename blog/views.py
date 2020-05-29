@@ -40,7 +40,8 @@ class BlogDetailView(DetailView):
     # set the template name
     template_name = 'blog/post_detail.html'
 
-# class based view for new blog post form page
+# class based view for new blog post form page (login required)
+
 class BlogCreateView(CreateView):
     
     # set the model to Post

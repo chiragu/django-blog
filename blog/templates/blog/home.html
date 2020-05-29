@@ -11,8 +11,13 @@
 </div>
 {% endfor %}
 
+
+{% if user.is_authenticated %}
+
 <div class="new-post">
     <a href="{% url 'post_new' %}">+ New Blog Post</a>
 </div>
+
+{% endif %}
 
 {% endblock content%}
